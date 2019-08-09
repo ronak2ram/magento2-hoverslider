@@ -1,0 +1,23 @@
+.nav-dots {
+    width: 100%;
+    bottom: 9px;
+    height: 11px;
+    display: block;
+}
+.show_dots {
+    position: absolute;
+    z-index: 100;
+}
+.nav-dots .nav-dot {
+    top: -5px;
+    width: 7px;
+    height: 7px;
+    margin: 0 1px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.nav-dot.active {
+    background-color: red;
+}
